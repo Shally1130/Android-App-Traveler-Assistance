@@ -14,17 +14,17 @@ App shows users location' weather forecast information, including current temper
 
 **Some screen shots of above description:** 
 
-<img src="https://github.com/Shally1130/Android-App-Traveler-Assistance/master/screenshot/weatherforcastfunction/5.png" height="500px" width="300px">|<img src=https://github.com/Shally1130/Android-App-Traveler-Assistance/master/screenshot/weatherforcastfunction/4.png height="500px" width="300px">
+<img src="https://github.com/Shally1130/Android-App-Traveler-Assistance/blob/master/screenshot/weatherforcastfunction/5.png" height="500px" width="300px">|<img src=https://github.com/Shally1130/Android-App-Traveler-Assistance/blob/master/screenshot/weatherforcastfunction/4.png height="500px" width="300px">
 
 
 Weather forecast not only provide users location information, but also provided specific city's weather information. Clicking the blue arrow which on the top of screen, it would jump into city list, users could choose any cities they want to see. 
 
 
-<img src="https://github.com/Shally1130/Android-App-Traveler-Assistance/master/screenshot/weatherforcastfunction/22.png" height="500px" width="300px">|<img src="https://github.com/Shally1130/Android-App-Traveler-Assistance/master/screenshot/weatherforcastfunction/2.png" height="500px" width="300px">
+<img src="https://github.com/Shally1130/Android-App-Traveler-Assistance/blob/master/screenshot/weatherforcastfunction/22.png" height="500px" width="300px">|<img src="https://github.com/Shally1130/Android-App-Traveler-Assistance/blob/master/screenshot/weatherforcastfunction/2.png" height="500px" width="300px">
 
 It also provides pull down refresh, when data is out-of-date
 
-<img src="https://github.com/Shally1130/Android-App-Traveler-Assistance/master/screenshot/weatherforcastfunction/3.png" height="500px" width="300px">
+<img src="https://github.com/Shally1130/Android-App-Traveler-Assistance/blob/master/screenshot/weatherforcastfunction/3.png" height="500px" width="300px">
 
 
 
