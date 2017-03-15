@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/titlelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="如果对驴友小助手有什么意见和建议，欢迎通过以下方式联系开发者"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/contentlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlelayout" 
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/phonebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/phone"
+            android:layout_alignBottom="@+id/phone"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@+id/phone"
+            android:background="@android:color/transparent"
+            android:text="18745726437(猛戳我)"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/phone"
+            android:layout_marginTop="50dp"
+            android:text="开发者：陶臻颖"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/qq"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="50dp"
+            android:text="联系电话:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/weibo"
+            android:layout_below="@+id/phonebutton"
+            android:layout_marginTop="50dp"
+            android:text="QQ：453583836"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/weibo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/qq"
+            android:text="微博：@UMN快到淘小颖的碗里来"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contentlayout" >
+
+        <TextView
+            android:id="@+id/bottom2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="软件学院"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottom2"
+            android:layout_centerHorizontal="true"
+            android:text="哈尔滨理工大学"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
