@@ -1,3 +1,8 @@
+/*
+1.对变量名和方法有清晰、明确的名字。
+2.对每个方法有良好的模块化。
+3.对一些模块和变量有给明注释。
+*/
 package com.example.newWeatherPart;
 
 import java.util.Calendar;
